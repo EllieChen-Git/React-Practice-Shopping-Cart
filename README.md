@@ -1,6 +1,6 @@
 # React - Shopping Cart
 
-- A simple React app that allows you to add, remove, delete and reset items from your shopping cart.
+- A simple React app that allows you to add, remove, delete and reset items in your shopping cart.
 
 ![example](./public/cart.JPG)
 
@@ -39,5 +39,7 @@ src\components\counter.jsx
 src\components\counters.jsx
 
 **4. navbar.jsx**
+
 **5. index.js**
+
 **6. app.js**

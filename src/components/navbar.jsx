@@ -4,7 +4,7 @@ import React from "react";
 //stateless functional component
 
 const NavBar = ({ totalCounters }) => {
-  //destructuring 'props.totalCounters' here
+  //Destructuring 'props.totalCounters' here
   return (
     <nav className="navbar navbar-light bg-light">
       <a className="navbar-brand" href="#">

@@ -1,12 +1,14 @@
 # React - Shopping Cart
 
+- A simple React app that allows you to add, remove, delete and reset items from your shopping cart.
+
 ![example](./public/cart.JPG)
 
 ---
 
-#### Tutorial I'm followed: React Tutorial
+#### Tutorial I followed:
 
-- Learn React - React Crash Course [2019] by Programming with Mosh (https://www.youtube.com/watch?v=Ke90Tje7VS0&t=62s)
+- [React Tutorial - Learn React - React Crash Course [2019] by Programming with Mosh](https://www.youtube.com/watch?v=Ke90Tje7VS0&t=62s)
 
 #### Dependencies:
 

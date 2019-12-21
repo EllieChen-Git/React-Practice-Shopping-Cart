@@ -31,6 +31,7 @@ import "bootstrap/dist/css/bootstrap.css";
 src\components\counter.jsx
 
 **3. Counters.jsx**
+
 src\components\counters.jsx
 
 <!-- **.**

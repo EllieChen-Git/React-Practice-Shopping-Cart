@@ -11,19 +11,42 @@ class Counters extends Component {
     ]
   };
 
+  handleIncrement = counter => {
+    const counters = [...this.state.counters]; //use spread operator to create a new copy of counters
+    const index = counters.indexOf(counter);
+    counters[index] = { ...counter }; //use spread operator again to create a new copy of counter
+    counters[index].value++;
+    this.setState({ counters });
+  };
+
   handleDelete = counterId => {
     const counters = this.state.counters.filter(c => c.id !== counterId);
     // this.setState({ counters: counters }); //longhand: override the counters object with counters const
     this.setState({ counters }); //shorthand: as the names of 'key' & 'value' are the same
   };
 
+  handleReset = () => {
+    const counters = this.state.counters.map(c => {
+      c.value = 0;
+      return c;
+    });
+    this.setState({ counters });
+  };
+
   render() {
     return (
       <div>
+        <button
+          onClick={this.handleReset}
+          className="btn btn-primary btn-sm m-2"
+        >
+          Reset
+        </button>
         {this.state.counters.map(counter => (
           <Counter
             key={counter.id}
             onDelete={this.handleDelete} //handling the 'delete' event
+            onIncrement={this.handleIncrement}
             // value={counter.value}
             // id={counter.id}
             counter={counter}

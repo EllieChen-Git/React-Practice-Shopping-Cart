@@ -8,16 +8,23 @@ class Counter extends Component {
 
         <button
           onClick={() => this.props.onIncrement(this.props.counter)}
-          className="btn btn-seconary btn-sm"
+          className="btn btn-secondary btn-sm m-2"
         >
-          Increment
+          Add
+        </button>
+
+        <button
+          onClick={() => this.props.onDecrement(this.props.counter)}
+          className="btn btn-secondary btn-sm m-2"
+        >
+          Remove
         </button>
 
         <button
           onClick={() => this.props.onDelete(this.props.counter.id)} //raising an 'delete' event
           className="btn btn-danger btn-sm m-2"
         >
-          Remove
+          Delete
         </button>
       </div>
     );
@@ -31,7 +38,7 @@ class Counter extends Component {
 
   formatCount() {
     const { value } = this.props.counter;
-    return value === 0 ? "Zero" : value;
+    return value === 0 ? "Interested?" : value;
   }
 }
 

@@ -1,14 +1,16 @@
 # React - Shopping Cart
 
-(Work in Progress)
-
-- Tutorial I'm following: https://www.youtube.com/watch?v=Ke90Tje7VS0&t=62s
+![example](./public/cart.JPG)
 
 ---
 
+#### Tutorial I'm followed: React Tutorial
+
+- Learn React - React Crash Course [2019] by Programming with Mosh (https://www.youtube.com/watch?v=Ke90Tje7VS0&t=62s)
+
 #### Dependencies:
 
-- Bootstarp (@4.1.1)
+- Bootstrap (@4.1.1)
 
 ---
 
@@ -37,40 +39,3 @@ src\components\counters.jsx
 **4. navbar.jsx**
 **5. index.js**
 **6. app.js**
-**.**
-**.**
-**.**
-**.**
-**.**
-
-<!-- ```javascript
-```
-
-```javascript
-```
-
-```javascript
-```
-
-```javascript
-```
-
-
-
-```javascript
-```
-
-```javascript
-```
-
-```javascript
-```
-
-```javascript
-```
-
-```javascript
-```
-
-```javascript
-``` -->

@@ -34,10 +34,16 @@ src\components\counter.jsx
 
 src\components\counters.jsx
 
-<!-- **.**
+**4. navbar.jsx**
+**5. index.js**
+**6. app.js**
+**.**
+**.**
+**.**
+**.**
 **.**
 
-```javascript
+<!-- ```javascript
 ```
 
 ```javascript
@@ -49,12 +55,7 @@ src\components\counters.jsx
 ```javascript
 ```
 
-**.**
-**.**
-**.**
-**.**
-**.**
-**.**
+
 
 ```javascript
 ```

@@ -12,9 +12,10 @@ class Counters extends Component {
     } = this.props;
     return (
       <div>
-        <button onClick={onReset} className="btn btn-primary btn-sm m-2">
+        <button onClick={onReset} className="btn btn-secondary btn-sm m-2">
           Reset
         </button>
+
         {counters.map(counter => (
           <Counter
             key={counter.id}

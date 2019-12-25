@@ -10,6 +10,8 @@
 
 [React Tutorial - Learn React - React Crash Course [2019] by Programming with Mosh](https://www.youtube.com/watch?v=Ke90Tje7VS0&t=62s)
 
+**Ellie's note**: A great tutorial explaining the core concepts of React and implement them into a simple app. Highly recommand this!!!
+
     26:15 Your First React Component
     31:38 Specifying Children
     35:56 Embedding Expressions
